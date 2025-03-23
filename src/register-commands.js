@@ -4,7 +4,7 @@ require('dotenv').config();
 // 註冊 discord slash commands
 const commands = [
     {
-        name: '今天的天氣', // 改為小寫
+        name: '今天的天氣', 
         description: '今天的天氣狀況',
         options: [
             {
